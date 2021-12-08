@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(coffe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.same{
+    border: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    transition: 0.50s;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid orange;
+}
+.same:hover{
+    background-color: rgb(18, 218, 158);
+    border-color: rgb(18, 218, 158);
+}
+.frist_h{
+    text-align: left;
+    transform: translate(1%,50%);
+}
+.welcome{
+    text-align: center;
+    transform: translate(-50%);
+    display: block;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+}
+.same2{
+    transform: translate(-50%);
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    font-size: 25px;
+    background-color: rgb(18, 211, 218);
+    border: 2px solid transparent;
+    border-radius: 24px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.same3{
+    transform: translate(-50%);
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 54%;
+    font-size: 25px;
+    background-color: rgb(18, 211, 218);
+    border: 2px solid transparent;
+    border-radius: 24px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.same2:hover{
+    background-color: rgb(18, 218, 158);
+    border-color: rgb(18, 218, 158);
+}
+.same3:hover{
+    background-color: rgb(18, 218, 158);
+    border-color: rgb(18, 218, 158);
+}
+.second{
+    width: 100%;
+    height: 100vh;
+    background: #191919;
+    filter: drop-shadow(0px 0px 0px black);
+}
+.img1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 78%;
+    bottom: 60%;
+    border-radius: 50%;
+    border: solid double white;
+}
+#h1{
+    text-align: left;
+    position: absolute;
+    font-size: 50px;
+    right: 85%;
+    bottom: 85%;
+}
+#fristh3{
+    position: absolute;
+    bottom: 70%;
+    right: 24%;
+    text-align: left;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 78%;
+    bottom: 10%;
+    border-radius: 50%;
+    border: solid double white;
+}
+#second_h3{
+    position: absolute;
+    bottom: 20%;
+    right: 24%;
+    text-align: left;
+}
+#second_h1{
+    text-align: left;
+    position: absolute;
+    font-size: 50px;
+    right: 81%;
+    bottom: 37%;
+}
+.img3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 78%;
+    bottom: -140%;
+    border-radius: 50%;
+    border: solid double white;
+}
+.third{
+    width: 100%;
+    height: 50vh;
+    background: #191919;
+}
+#third_h1{
+    text-align: right;
+    position: absolute;
+    font-size: 50px;
+    right: -300%;
+    bottom: 130%;
+}
+#third_h3{
+    position: absolute;
+    bottom: -135%;
+    right: 24%;
+    text-align: left;
+}
+#third_h1{
+    text-align: left;
+    position: absolute;
+    font-size: 50px;
+    right: 75%;
+    bottom: -115%;
+}
+@media all {
+
+}
+@media print{
+
+}
+@media only screen and (max-width:940px){
+    .same2{
+        left: 60%;
+    }
+    .same3{
+        right: 60%;
+    }
+    .same{
+        bottom: -50px;
+        text-align: center;
+    }
+    .frist_h{
+        text-align: center;
+    }
+    .welcome{
+        top: 33%;
+    }
+    .second{
+        height: 150vh;
+    }
+    #h1{
+        right: 135px;
+    }
+    #fristh3{
+        top: 165px;
+    }
+    .img1{
+        width: 100px;
+        height: 100px;
+        top: 180px;
+        right: -15px;
+    }
+    #third_h3{
+        top: 250%;
+    }
+    #second_h1{
+        top: 44%;
+        right: 75px;
+    }
+    .img2{
+        width: 100px;
+        height: 100px;
+        right: -1%;
+        top: 60%;
+    }
+    .img3{
+        bottom: -175%;
+        width: 100px;
+        height: 100px;
+        right: -3%;
+    }
+    #third_h1{
+        bottom: -145%;
+        right: 75px;
+    }
+}
